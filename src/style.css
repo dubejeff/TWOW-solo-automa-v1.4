@@ -7,49 +7,6 @@ body {
   font-size: 18px;
 }
 
-.old-paper {
-  position: relative;
-  background-color: #c2b09a;
-  background-image: url('@/assets/textures/OldPaper.jpg');
-  background-size: cover;
-  background-repeat: repeat;
-
-  color: #3a2c1a;
-
-  padding: 2rem;
-  border-radius: 8px;
-  border: 5px double black;
-
-  box-shadow:
-    inset 0 0 60px rgba(0, 0, 0, 0.25),
-    0 10px 30px rgba(0, 0, 0, 0.4);
-
-  font-family: 'IM Fell English SC', serif;
-}
-
-.old-paper::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-
-  background:
-    radial-gradient(circle at top left, rgba(0, 0, 0, 0.15), transparent 60%),
-    radial-gradient(circle at bottom right, rgba(0, 0, 0, 0.25), transparent 65%);
-
-  mix-blend-mode: multiply;
-}
-
-.old-paper h1,
-.old-paper h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Cinzel', serif;
-  letter-spacing: 0.05em;
-}
-
 /* Reward / confirm */
 .btn-gold {
   background-color: #b58a2c;
