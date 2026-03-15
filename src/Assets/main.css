@@ -1,0 +1,10 @@
+/* src/assets/main.css */
+
+:root {
+  --bs-font-sans-serif: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
