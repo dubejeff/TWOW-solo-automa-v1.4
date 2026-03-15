@@ -8,7 +8,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 export default defineConfig({
   plugins: [
     vue(),
-    base: '/TWOW-solo-automa-v1.4/'
+    base: '/TWOW-solo-automa-v1.4/',
     vueDevTools(),
   ],
   resolve: {
